@@ -27,6 +27,7 @@ player_states[states.normal] = player_normal;
 player_states[states.jump] = player_jump;
 player_states[states.mach2] = player_mach2;
 player_states[states.mach3] = player_mach3;
+player_states[states.crescentjump] = player_crescentjump;
 player_states[states.tumble] = player_tumble;
 player_states[states.slide] = player_slide;
 player_states[states.climbwall] = player_climbwall;

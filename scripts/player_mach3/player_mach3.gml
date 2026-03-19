@@ -10,12 +10,14 @@ function player_mach3()
 	
 	if (input_buffers.jump > 0 && coyote_time) 
 	{
+		
 		input_buffers.jump = 0
 		vsp = -11
 		jumpstop = false
 		reset_anim(spr_player_mach3jump)
 		scr_sound_3d(sfx_jump, x, y)
 		particle_create(x, y, particles.genericpoof, xscale, 1, spr_jumpdust)
+		state = states.crescentjump;
 	}
 	
 	if (mach4mode)

@@ -275,7 +275,7 @@ function do_hurt(obj = noone)
 		
 		if global.hurtcounter % 10 == 0
 		{
-			var _name = "Peppino"
+			var _name = "Italiano"
 			with obj_tv
 				tv_expression(asset_get_index($"spr_tv_bighurt{irandom_range(1, 10)}"))
 			do_tip($"\{s}You've hurt {_name} {global.hurtcounter} Times...")

@@ -4,6 +4,7 @@ enum states
 	jump,
 	mach2,
 	mach3,
+	crescentjump,
 	tumble,
 	climbwall,
 	slide,

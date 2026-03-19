@@ -14,6 +14,7 @@ function break_destroyables()
 	var horizontal_states = [
 		states.mach2,
 		states.mach3,
+		states.crescentjump,
 		states.grab,
 		states.tumble,
 		states.punch,
